@@ -1,0 +1,57 @@
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+
+body {
+	font-family:"Nanum Gothic", Arial, sans-serif;
+	background-color:#fff;
+	color:#57A957;
+}
+
+/*********************** iContacts 시작 ***************************/
+
+
+.navbar .nav > li >a {
+	float: none;
+	padding: 10px 15px 10px;
+	color: #ddd;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #ffffff;
+}
+
+.navbar .nav > li > a:hover {
+	background-color: transparent;
+	color: #fff;
+	text-decoration: none;
+}
+
+footer {
+	min-height: 100px;
+	max-height: 200px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #fafafa;
+	background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff),
+		to(#f2f2f2));
+	background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+	background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+	background-image: linear-gradient(to bottom, #9fc5f8, #6fa8dc);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',
+		endColorstr='#fff2f2f2', GradientType=0);
+	border: 1px solid #d4d4d4;
+}
+
+.contacts-main {
+	margin-top: 60px;
+}
+
+thead {
+	background-color: #ddd;
+}
+.table-hover tbody tr:hover>td,.table-hover tbody tr:hover>th {
+	background-color: #FFFFFF;
+}
+
+.contacts-main .pull-right {
+	margin-left: 10px;
+}
